@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  machine:
+    image: appdynamics/dbagent:${APPD_AGENT_TAG}
+    build:
+      context: .
+      args:
+        APPD_AGENT_VERSION: 
+        APPD_AGENT_SHA256: 
+
