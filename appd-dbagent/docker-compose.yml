@@ -2,7 +2,7 @@ version: '3'
 
 services:
   machine:
-    image: appdynamics/dbagent:${APPD_AGENT_TAG}
+    image: jfaronson/appdynamics-dbagent:${APPD_AGENT_TAG}
     build:
       context: .
       args:

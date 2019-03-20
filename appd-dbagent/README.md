@@ -45,7 +45,7 @@ dbagent-4.5.4.885.zip	appdynamics.env			env
 Removing intermediate container a3a73c8622c8
  ---> 30beb29611f7
 Successfully built 30beb29611f7
-Successfully tagged appdynamics/dbagent:4.5.4
+Successfully tagged jfaronson/appdynamics-dbagent:4.5.4
 
 ```
 
@@ -75,7 +75,7 @@ APPDYNAMICS_AGENT_TIER_NAME=tier
 - Just do a `docker run`
 
 ```
-$ docker run --env-file env  appdynamics/dbagent:4.5.4 
+$ docker run --env-file env  jfaronson/appdynamics-dbagent:4.5.4 
 
 Using Java Version [1.8.0_181] for Agent
 Using Agent Version [Machine Agent v4.5.4.885 GA Build Date 2018-07-25 17:57:44]
