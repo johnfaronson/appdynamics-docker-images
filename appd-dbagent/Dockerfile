@@ -1,8 +1,8 @@
 FROM openjdk:8-jre-slim AS builder
 
-LABEL "vendor"="AppDynamics LLC"
+LABEL vendor="AppDynamics LLC"
 LABEL description="AppDynamics Database Agent packaged as a Docker container."
-LABEL maintainer="john.aronson@appdynamics.com"
+LABEL maintainer=john.aronson@appdynamics.com
 LABEL org.label-schema.docker.cmd="docker run --env-file env  appdynamics/dbagent:<tag>"
 
 ARG APPD_AGENT_VERSION 
