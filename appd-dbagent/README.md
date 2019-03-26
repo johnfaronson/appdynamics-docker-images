@@ -1,4 +1,4 @@
-# Building Docker with Machine Agent
+# Building Docker with DB Agent
 
 ## Pre-Requisites
 
@@ -25,7 +25,7 @@ dbagent-4.5.4.885.zip	appdynamics.env			env
   -  `APPD_AGENT_TAG` shortened form the version to be used as the image tag
   
 ```
-(master)$ export APPD_AGENT_MAJOR_VERSION=4.5.4
+(master)$ export APPD_AGENT_TAG=4.5.4
 
 (master)$ export APPD_AGENT_VERSION=4.5.4.885
 
